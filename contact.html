@@ -7,6 +7,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         <script type="text/javascript" src="script.js"></script>
+        <link rel="icon" href="images/logoW.png">
         <title>Deli El Bigotes Contact</title>
         
         <style media="all">
@@ -16,8 +17,8 @@
         
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html"><img class="mustacheNav" src="images/mustache2.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,25 +34,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Menus
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link" href="menu.html">Menu</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input id="navInput" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
         
@@ -59,6 +45,11 @@
             <h1>
                 Contact
             </h1>
+            <div class="row">
+                <div class="col-xs-12 spacer">
+                    
+                </div>
+            </div>
              <div class="row">
                 <div class="col-md-6">
                     <div id="contactForm">
@@ -83,7 +74,24 @@
                 <div class="col-md-6">
                     <iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Deli%20El%20Bigotes%2C%20East%2031st%20Street%2C%20Brooklyn%2C%20NY%2C%20United%20States&key=AIzaSyC70AvICAREKR75FQVTsIzCbZifGTwfzBU" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-            </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-3">
+                    <address class="address">
+                        <strong>Deli El Bigotes</strong><br>
+                        3 East 31st Street<br>
+                        Brooklyn, NY 11226<br>
+                        <abbr title="Phone">P:</abbr> (718) 282-2001
+                    </address>    
+                </div>
+                <div class="col-md-2" id="email">
+                    <address class="address">
+                        <strong>Carmen</strong><br>
+                        <a href="mailto:#">#</a>
+                    </address>    
+                </div>
+            
         </div>
     </body>
 </html>

@@ -2,16 +2,54 @@ h1{
     font-size:100px;
     text-align: center;
 }
+h3{
+    text-align: center;
+}
 .navbar-collapse{
     text-align: center;
 }
 
+.navbar{
+    background-image: url("images/Picture6.png");
+    font-size:30px;
+}
+.mustacheNav{
+    width:150px;
+}
+
+.navbar ul li a:link {
+    color: #c40003;
+}
+.navbar ul li a:visited {
+    color: #3F7B00;
+}
+.navbar ul li a:hover {
+    color: #7B0002;
+}
+#navElement:active {
+    color: blue;
+}
+
+
+
+.spacer{
+    height:100px;
+}
+
+.carousel{
+    height:500px;
+}
+.carouselImg{
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+
+}
 
 #contactForm{
     height:500px;
 }
 .address{
-    font-family: 'Lancelot', cursive;
     font-size:24px;
 }
 #map{
@@ -30,7 +68,6 @@ h1{
     font-size:20px;
 }
 #contactSubmit{
-    font-family: 'Lancelot', cursive;
     font-size:20px;
     background-color: white;
     border: 2px dotted black;
